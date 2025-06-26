@@ -148,6 +148,11 @@
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
+  color: #000;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .reservation__form {
@@ -164,6 +169,14 @@
   border: none;
 }
 
+.form__label {
+  color: #000;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .form__input {
   display: block;
   width: 100%;
@@ -172,6 +185,9 @@
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .form__button {
@@ -183,6 +199,10 @@
   background-color: #1878dc;
   color: #fff;
   transition: 1s ease;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__button:hover {
